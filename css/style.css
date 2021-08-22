@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(50, 50, 80);
+  padding: 20px 70px;
+}
+nav ul li {
+  font-size: 30px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+  background-position: right;
+}
+.top_wrap h1 {
+  font-size: 40px;
+  color: rgb(50, 50, 80);
+  background-color: white;
+  padding: 20px 50px;
+  float: right;
+  margin: 180px;
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title { 
+  border: solid#75d5ff;
+  padding: 10px;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #75d5ff;
+  letter-spacing: 5px;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line1{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.service_right img {
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.service_left{
+  background-color: rgb(255, 236, 182);
+  padding: 10px 20px;
+}
+
+.service_left h3 {
+  color: #0aa1e2;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.service_left p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+#news {
+  width: 80%;
+  margin: 20% auto;
+}
+.news_wrap {
+  background-color: rgb(220, 255, 243);
+  padding: 10px 80px;
+  font-weight: bold;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.news_wrap p {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 20% auto;
+}
+
+/*tableの枠線はborderプロパティで、線の種類、色、太さを指定*/
+.price_wrap table {
+  border: double #0aa1e2 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #0aa1e2 2px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  background-color: rgb(255, 255, 145);
+  border: solid #0aa1e2 2px;
+  padding: 10px;
+}
+
+.price_wrap table td {
+  border: solid #0aa1e2 2px;
+  padding: 10px;
+}
+/*ここまで表の装飾、doubleで二重線、solidで一本線*/
+
+#contact {
+  background: rgb(241, 241, 241); /*RGB値で指定*/
+  width: 100%;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  line-height: 3;
+  
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none; /*枠線の消去*/
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
